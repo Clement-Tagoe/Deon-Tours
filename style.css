@@ -387,7 +387,7 @@ ul.footer-social {
         overflow: visible;
     }
 
-    .carousel-inner img {
+    .carousel-inner .carousel-item img {
         height: 350px;
     }
     
