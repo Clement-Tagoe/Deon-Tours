@@ -347,6 +347,7 @@ ul.footer-social {
         justify-content: center;
         height: 100%;
         overflow: visible;
+        padding-left: 0;
     }
 
     .custom-navbar ul li {
