@@ -372,6 +372,10 @@ ul.footer-social {
     .showcase {
         height: 350px;
     }
+
+    .carousel-inner img {
+        height: 350px;
+    }
     
     .deon {
         font-size: 7rem;
@@ -393,13 +397,6 @@ ul.footer-social {
 /* Mobiles */
 @media (max-width: 500px) {
     
-    .showcase {
-        height: 300px;
-    }
-
-    .carousel-inner img {
-        height: 300px;
-    }
 
     /* destinations */
 
