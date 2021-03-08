@@ -338,6 +338,7 @@ ul.footer-social {
         background-color: rgba(0, 0, 0, 0.8);
         z-index: 5;
         transform: translateY(-200%);
+        overflow: visible;
     }
 
     .custom-navbar ul {
@@ -345,6 +346,7 @@ ul.footer-social {
         align-items: center;
         justify-content: center;
         height: 100%;
+        overflow: visible;
     }
 
     .custom-navbar ul li {
@@ -371,6 +373,7 @@ ul.footer-social {
 
     .showcase {
         height: 350px;
+        overflow: visible;
     }
 
     .carousel-inner img {
@@ -384,6 +387,7 @@ ul.footer-social {
         font-size: 4rem;
     }
     .social {
+        z-index: 1;
         bottom: 0;
     }
 
