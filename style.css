@@ -102,11 +102,10 @@ img {
 
 .carousel-inner {
     height: 100%;
-    bottom: 0;
 }
 
 .carousel-item img {
-    height: 100% !important;
+    height: 100%;
 }
 
 .caption-container {
@@ -373,7 +372,7 @@ ul.footer-social {
     .showcase {
         height: 350px;
     }
-
+    
     .deon {
         font-size: 7rem;
     }
@@ -397,6 +396,11 @@ ul.footer-social {
     .showcase {
         height: 300px;
     }
+
+    .carousel-inner img {
+        height: 300px;
+    }
+
     /* destinations */
 
     .d-grid {
