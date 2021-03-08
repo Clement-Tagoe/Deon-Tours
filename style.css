@@ -136,16 +136,16 @@ img {
 
 .header-caption h1 {
     color: #fcd320;
-    line-height: 0.5;
+    line-height: 0.7;
 }
 
 .deon {
-    font-size: 9rem;
+    font-size: 8rem;
     animation: slideInFromLeft 2s ease-in;
 }
 
 .tours {
-    font-size: 6rem;
+    font-size: 5rem;
     padding-left: 220px;
     animation: slideInFromRight 2s ease-in;
 }
@@ -213,10 +213,6 @@ img {
 
 .destinations img {
     border-radius: 10px;
-    -webkit-box-shadow: 4px -4px 5px 2px rgba(0,0,0,0.25);
-    -moz-box-shadow: 4px -4px 5px 2px rgba(0,0,0,0.25);
-    box-shadow: 4px -4px 5px 2px rgba(0,0,0,0.25);
-	
 }
 
 .destinations img:hover {   
@@ -253,7 +249,7 @@ img {
 /* footer */
 
 footer {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: #010613;
     border-top: 2px solid #fcd320;
 }
 
@@ -374,6 +370,15 @@ ul.footer-social {
         padding: 0;
     }
 
+    .logo-div {
+        width: 90px;
+        height: 90px;
+    }
+
+    .custom-navbar {
+        height: 80px;
+    }
+
     .header-caption {
         width: 450px;
         height: 300px;
@@ -392,10 +397,11 @@ ul.footer-social {
     }
     
     .deon {
-        font-size: 7rem;
+        font-size: 5rem;
     }
     .tours {
-        font-size: 4rem;
+        font-size: 3rem;
+        padding-left: 180px;
     }
     .social {
         z-index: 1;
