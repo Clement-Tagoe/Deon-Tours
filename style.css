@@ -104,6 +104,10 @@ img {
     height: 100%;
 }
 
+.carousel-inner .carousel-item img {
+    height: 100%;
+}
+
 .carousel-item img {
     height: 100%;
 }
@@ -320,6 +324,12 @@ ul.footer-social {
 
     100% {
         transform: translateX(0);
+    }
+}
+
+@media (max-width: 990px) {
+    .showcase {
+        height: 500px;
     }
 }
 
